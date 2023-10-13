@@ -1,0 +1,18 @@
+.container_menu-bar {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ul_menu-bar{
+    display: flex;
+    
+    
+}
+
+.ul_menu-bar li{
+    display: flex;    
+    margin: 30px;
+    list-style: none;
+
+}
