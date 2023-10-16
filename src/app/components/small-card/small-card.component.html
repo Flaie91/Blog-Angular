@@ -3,8 +3,7 @@
         <img src="{{ photoCover }}" width="400px" alt="">
     </div>
     <div class="small-card_title">
-       <h1><a href="#">{{ cardTitle }}</a></h1>
-    </div>
-    
+       <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
+    </div>    
 </div>
 <hr class="small-card_title_separation">

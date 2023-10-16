@@ -1,6 +1,14 @@
 .container_articles {
     margin-top: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
+
+@media screen and (min-width: 1200px) {
+    .container_articles {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        
+        }}

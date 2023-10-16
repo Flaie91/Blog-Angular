@@ -16,6 +16,7 @@
 }
 
 .big-card_photo img{
+    width: 100%;
     align-items: center;
 }
 
