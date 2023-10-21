@@ -9,9 +9,10 @@ import { data } from 'src/app/data/data'
 })
 export class ContentComponent implements OnInit {
   photoCover: string =""
-  contentTitle:string=""
+  contentTitle:string=""  
   contentDescription:string=""
   private id : string | null = "0"
+  link: string = ""
 
   constructor( private route:ActivatedRoute) { }
 
@@ -22,8 +23,9 @@ export class ContentComponent implements OnInit {
   setValuesToComponent(id:string | null) {
     const result = data.filter(article => article.id == id)[0]  
   
-    this.contentTitle = result.title
+    this.contentTitle = result.title    
     this.contentDescription = result.description
     this.photoCover = result.photoCover
+    this.link = result.link
   }
 }

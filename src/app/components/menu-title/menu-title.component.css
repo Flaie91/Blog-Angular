@@ -5,9 +5,7 @@
     display: flex;
     justify-content: center;
 }
-.container_menu-title > hr{
-    margin-top: 5px;
-    margin-bottom: 5px;    
+.container_menu-title > hr{        
     justify-content: center;
     border-color: rgb(56, 55, 55);
 }

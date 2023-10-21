@@ -6,9 +6,16 @@
     display: flex;
     flex-direction: column;  
     align-items: center;
+    position: relative;
     
   }
   
+
+  .container__content-hr{
+    border-color: rgb(56, 55, 55);
+   
+    
+  }
   .content__cover > img{
     border:5px solid rgb(144, 144, 144);
     border-radius: 5px;
@@ -22,6 +29,7 @@
     margin-top: 15px;
     justify-content: center;
     
+    
   }
   
   .content__description > p{
@@ -31,4 +39,29 @@
     margin-right: 15px;
   }
   
+  .link-soluction{
+    position: absolute;
+    bottom:130px;
+    right: 20px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+    font-style: italic;
+    border-radius: 50px;
+  }
+
+  .blink {
+    animation: blink 1s steps(1, end) infinite;
+  }
   
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
